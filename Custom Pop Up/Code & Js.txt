@@ -1,0 +1,20 @@
+<div id="popup-container">
+        <a class="close">X</a>
+          <div id="popup-window">
+            <div class="modal-content">
+              <a href="#" class="your-class"></a>
+                 <div class="popupText">
+					<div class="heading">Subscribe to our Newsletter</div>
+				    <div class="subheading"> Sign up to receive the latest XCLEARVISION product launches, innovations and promotions along with industry news and company updates.</div>
+					<div class="cust_mailc_form">
+					    <?php echo do_shortcode('[mc4wp_form id="553"]'); ?>
+					</div>
+                    
+				</div>
+            </div>
+          </div>
+ </div>
+ 
+ 
+ <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
